@@ -255,6 +255,9 @@ pub mod multipart;
 mod parse;
 mod util;
 
+mod range;
+pub use range::ByteRange;
+
 pub use parse::{parse_url, parse_url_opts};
 
 use crate::path::Path;
